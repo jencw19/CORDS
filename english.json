@@ -1,0 +1,201 @@
+
+
+[
+{    
+    "textKeyId": 1,
+    "textKeyName": "home",
+    "textValueName": "Home"
+},
+{   "textKeyId": 2,
+    "textKeyName": "about",
+    "textValueName": "About"
+},
+{
+    "textKeyId": 3,
+    "textKeyName": "viewAll",
+    "textValueName": "View All Complications"
+},
+{   
+    "textKeyId": 4,
+    "textKeyName": "exportEx",
+    "textValueName": "Export List to Excel"
+},
+{   "textKeyId": 5,
+    "textKeyName": "exportPr",
+    "textValueName": "Export List to Print"
+},
+{   "textKeyId": 6,
+    "textKeyName": "sb",
+    "textValueName": "Scleral Buckle"
+},
+{   "textKeyId": 7,
+    "textKeyName": "ppv",
+    "textValueName": "Pars Plana Vitrectomy" 
+},
+{   "textKeyId": 8,
+    "textKeyName": "pr",
+    "textValueName": "Pnuematic Retinopexy"
+},
+{   "textKeyId": 9,
+    "textKeyName": "compList",
+    "textValueName": "Complication Lists"
+},
+{   "textKeyId": 10,
+    "textKeyName": "scoreCalculator",
+    "textValueName": "Score Calculator" 
+},
+{   "textKeyId": 11,
+    "textKeyName": "selectSurgery",
+    "textValueName": "Select Surgery Type" 
+},
+{   "textKeyId": 12,
+    "textKeyName": "title",
+    "textValueName": "Complications of Retinal Detachment Surgery and Score Calculator" 
+},
+{   "textKeyId": 13,
+    "textKeyName": "compScoreCalculator",
+    "textValueName": "Complication Score Calculator" 
+
+},
+{   "textKeyId": 14,
+    "textKeyName": "aboutInfo",
+    "textValueName": "Vitreoretinal surgeons are guided by the evidence from randomised clinical trials (RCTs) to offer, and then select, the more effective surgeries for their patients. In RCTs, the different surgeries investigated are evaluated based on their beneficial effects but also based on their harms/potential complications. This applies to any surgery, including retinal detachment surgery.<br><br> Trials on interventions for retinal detachment surgery have been, in general, adequate at reporting effectiveness of the surgeries evaluated but not so good at reporting in a systematic and quantitative manner their harms/complications (<a href = 'https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2781201' target='_blank' > see article</a> ). This was the case, at least partly, because there was no established list of complications with their severity that could be used for this purpose. <br><br>The Complications Of Retinal Detachment Surgery (CORDS) Study Group has developed now a comprehensive list of complications of retinal detachment surgery with their severity scores using the Delphi consensus method. Vitreoretinal surgeons from across the globe participated on its development. This app provides the list of the complications and their scores."
+},
+{   "textKeyId": 15,
+    "textKeyName": "contact",
+    "textValueName": "Contact Us" 
+},
+{   "textKeyId": 16,
+    "textKeyName": "back",
+    "textValueName": "Back" 
+},
+{   "textKeyId": 17,
+    "textKeyName": "calculate",
+    "textValueName": "Calculate" 
+},
+{   "textKeyId": 18,
+    "textKeyName": "name",
+    "textValueName": "Name" 
+},
+{   "textKeyId": 19,
+    "textKeyName": "score",
+    "textValueName": "Score" 
+},
+{   "textKeyId": 20,
+    "textKeyName": "surgery",
+    "textValueName": "Surgery Type" 
+},
+{   "textKeyId": 21,
+    "textKeyName": "occurrence",
+    "textValueName": "Occurrence" 
+},
+{   "textKeyId": 22,
+    "textKeyName": "severity",
+    "textValueName": "Severity" 
+},
+{   "textKeyId": 23,
+    "textKeyName": "sbComps",
+    "textValueName": "Scleral Buckle Complications" 
+},
+{
+    "textKeyId": 24,
+    "textKeyName": "ppvComps",
+    "textValueName": "Pars Plana Vitrectomy Complications"
+},
+{   "textKeyId": 25,
+    "textKeyName": "prComps",
+    "textValueName": "Pneumatic Retinopexy Complications"
+},
+{   "textKeyId": 26,
+    "textKeyName": "select",
+    "textValueName": "Please select complications....."
+},
+{   "textKeyId": 27,
+    "textKeyName": "mild",
+    "textValueName": "Mild"
+},
+{   "textKeyId": 28,
+    "textKeyName": "moderate",
+    "textValueName": "Moderate"
+},
+{   "textKeyId": 29,
+    "textKeyName": "severe",
+    "textValueName": "Severe"
+},
+{   "textKeyId": 30,
+    "textKeyName": "tot",
+    "textValueName": "TOTAL COMPLICATION SCORE: "
+},
+{   "textKeyId": 31,
+    "textKeyName": "mildTot",
+    "textValueName": "Number of Mild Complications: "
+},
+{   "textKeyId": 32,
+    "textKeyName": "modTot",
+    "textValueName": "Number of Moderate Complications: "
+},
+{   "textKeyId": 33,
+    "textKeyName": "severeTot",
+    "textValueName": "Number of Severe Complications: "
+
+},
+{   "textKeyId": 34,
+    "textKeyName": "selectLang",
+    "textValueName": "Select Language"
+},
+{   "textKeyId": 35,
+    "textKeyName": "about",
+    "textValueName": "About"
+},
+{  "textKeyId": 36,
+    "textKeyName": "sb2",
+    "textValueName": "Scleral Buckle"
+},
+{   "textKeyId": 37,
+    "textKeyName": "ppv2",
+    "textValueName": "Pars Plana Vitrectomy"
+},
+{   "textKeyId": 38,
+    "textKeyName": "pr2",
+    "textValueName": "Pneumatic Retinopexy"
+},
+{  "textKeyId": 39,
+    "textKeyName": "sb3",
+    "textValueName": "Scleral Buckle"
+},
+{   "textKeyId": 40,
+    "textKeyName": "ppv3",
+    "textValueName": "Pars Plana Vitrectomy"
+},
+{   "textKeyId": 41,
+    "textKeyName": "pr3",
+    "textValueName": "Pneumatic Retinopexy"
+},
+{   "textKeyId": 42,
+    "textKeyName": "home2",
+    "textValueName": "Home"
+},
+{   "textKeyId": 43,
+    "textKeyName": "allComps",
+    "textValueName": "All Complications"
+},
+{   "textKeyId": 44,
+    "textKeyName": "pleaseSelect",
+    "textValueName": "Please select complications..."
+},
+{   "textKeyId": 45,
+    "textKeyName": "selectdrop",
+    "textValueName": "Please select"
+}
+
+]
+
+      
+
+
+
+
+    
+   
+   
+    

@@ -1,0 +1,1137 @@
+[
+    {
+        "ID": 1,
+        "name": "Hémorragie sous-conjonctivale",
+        "score": 1,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": ["peropératoire", " Postopératoire"],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "aaa",
+        "english": "Subconjunctival haemorrhage"
+    },
+    {
+        "ID": 2,
+        "name": "Chémosis",
+        "score": 1,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": ["peropératoire", " Postopératoire"],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "aaa",
+        "english": "Chemosis"
+    },
+    {
+        "ID": 3,
+        "name": "Hémorragie sous-rétinienne ≤ 1 quadrant non atteignant la macula",
+        "score": 3,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "aaa",
+        "english": "Subretinal haemorrhage not involving macula, ≤ 1 quadrant"
+    },
+    {
+        "ID": 4,
+        "name": "Hémorragie sous-rétinienne > 1 quadrant non atteignant la macula",
+        "score": 4,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "aaa",
+        "english": "Subretinal haemorrhage not involving macula, > 1 quadrant"
+    },
+    {
+        "ID": 5,
+        "name": "Hémorragie suprachoroïdienne non atteignant la macula et non confluente (non 'kissing')",
+        "score": 5,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "peropératoire",
+            " Postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "aaa",
+        "english": "Suprachoroidal haemorrhage not involving macula and no kissing"
+    },
+    {
+        "ID": 6,
+        "name": "Hémorragie sous-rétinienne atteignant la macula, extension ≤ 3 papilles optiques",
+        "score": 7,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "aaa",
+        "english": "Subretinal haemorrhage involving macula, ≤ 3 disc areas"
+    },
+    {
+        "ID": 7,
+        "name": "Hémorragie sous-rétinienne atteignant la macula, extension > 3 papilles optiques",
+        "score": 8,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Sévère",
+        "severityeng": "Severe",
+        "acronym": "bbb",
+        "english": "Subretinal haemorrhage involving macula, > 3 disc areas"
+    },
+    {
+        "ID": 8,
+        "name": " Hémorragie suprachoroïdienne atteignant la macula ou confluente ('kissing')",
+        "score": 9,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "peropératoire",
+            " postopératoire"
+        ],
+        "severity": "Sévère",
+        "severityeng": "Severe",
+        "acronym": "bbb",
+        "english": "Suprachoroidal haemorrhage involving macula or kissing"
+    },
+    {
+        "ID": 9,
+        "name": "Changements de réfraction: <2D",
+        "score": 2,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "bbb",
+        "english": "Refractive changes: <2D"
+    },
+    {
+        "ID": 10,
+        "name": "PIO augmenté qui se produit tôt après la chirurgie et qui disparaît spontanément",
+        "score": 2,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "bbb",
+        "english": "Early raised IOP, self-resolving"
+    },
+    {
+        "ID": 11,
+        "name": "Hypotonie précoce, qui disparaît spontanément",
+        "score": 2,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "bbb",
+        "english": "Early hypotony, self-resolving"
+    },
+    {
+        "ID": 12,
+        "name": "Décollement choroïdien séreux : périphérique",
+        "score": 3,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "bbb",
+        "english": "Serous choroidal detachment: peripheral"
+    },
+    {
+        "ID": 13,
+        "name": "Fluide sous rétinien localisé persistant : périphérique, non progressif",
+        "score": 3,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "bbb",
+        "english": "Persistent localised subretinal fluid: peripheral, non-progressive"
+    },
+    {
+        "ID": 14,
+        "name": "Perte de champ visuel non liée au décollement de la rétine, mais attribuable à la intervention chirurgicale : sans conséquence sur le permis de conduire",
+        "score": 4,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "bbb",
+        "english": "Visual field loss not related to retinal detachment but attributable to surgical procedure: Not affecting driving license"
+    },
+    {
+        "ID": 15,
+        "name": "Changements de réfraction :≥2D",
+        "score": 4,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ccc",
+        "english": "Refractive changes: ≥ 2D"
+    },
+    {
+        "ID": 16,
+        "name": "PIO (Pression Intraoculaire = PIO) élevé de façon durable gérable avec des gouttes (traitement topique)",
+        "score": 4,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ccc",
+        "english": "Persistently raised IOP manageable with drops"
+    },
+    {
+        "ID": 17,
+        "name": "Déplacement IOL (lentille intraoculaire = LIO)",
+        "score": 4,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ccc",
+        "english": "IOL displacement"
+    },
+    {
+        "ID": 18,
+        "name": "Odème maculaire",
+        "score": 4,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ccc",
+        "english": "Macular oedema"
+    },
+    {
+        "ID": 19,
+        "name": "Fluide sous-rétinien persistant localisé: sous-maculair",
+        "score": 5,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ccc",
+        "english": "Persistent localised subretinal fluid: submacular"
+    },
+    {
+        "ID": 20,
+        "name": "Perte d’acuité visuelle attribuable à la procédure chirurgicale: Modérée (3 à 5 lignes ETDRS)",
+        "score": 6,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ccc",
+        "english": "Loss of visual acuity attributable to surgical procedure: Moderate (3-5 lines ETDRS chart)"
+    },
+    {
+        "ID": 21,
+        "name": "Hypotonie persistante (PIO < 5mmHg) sans plis maculaires",
+        "score": 6,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ccc",
+        "english": "Persistent hypotony (IOP < 5mmHg) without macular folds"
+    },
+    {
+        "ID": 22,
+        "name": "luxation de la LIO ",
+        "score": 6,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ccc",
+        "english": "IOL dislocation "
+    },
+    {
+        "ID": 23,
+        "name": "Formation d'un trou maculaire",
+        "score": 6,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ddd",
+        "english": "Macular hole formation"
+    },
+    {
+        "ID": 24,
+        "name": "Perte du champ visuel non liée à un décollement de rétine mais imputable à une intervention chirurgicale: perte du permis de conduire",
+        "score": 7,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ddd",
+        "english": "Visual field loss not related to retinal detachment but attributable to surgical procedure: Affecting driving license"
+    },
+    {
+        "ID": 25,
+        "name": "Décompensation cornéenne / œdème cornéen sévère",
+        "score": 7,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ddd",
+        "english": "Corneal decompensation / severe corneal oedema"
+    },
+    {
+        "ID": 26,
+        "name": "PIO constamment élevée nécessitant une intervention chirurgicale",
+        "score": 7,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ddd",
+        "english": "Persistently raised IOP requiring surgery"
+    },
+    {
+        "ID": 27,
+        "name": "Décollement choroïdien séreux : grand, confluent ('kissing')",
+        "score": 7,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ddd",
+        "english": "Serous choroidal detachment: large, kissing"
+    },
+    {
+        "ID": 28,
+        "name": "Décollement de rétine dû à PVR (PVR qui vient de se développer ou qui était présent et qui s’est aggravé)",
+        "score": 7,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ddd",
+        "english": "Retinal re-detachment due to new or worsening PVR"
+    },
+    {
+        "ID": 29,
+        "name": "Perte d’acuité visuelle attribuable à la procédure chirurgicale : Sévère ( 6 lignes ETDRS)",
+        "score": 8,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Sévère",
+        "severityeng": "Severe",
+        "acronym": "ddd",
+        "english": "Loss of visual acuity attributable to surgical procedure: Severe (≥ 6 lines on ETDRS chart)"
+    },
+    {
+        "ID": 30,
+        "name": "Hypotonie persistante avec plis maculaires",
+        "score": 8,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Sévère",
+        "severityeng": "Severe",
+        "acronym": "ddd",
+        "english": "Persistent hypotony with macular folds"
+    },
+    {
+        "ID": 31,
+        "name": "Endophtalmie",
+        "score": 9,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Sévère",
+        "severityeng": "Severe",
+        "acronym": "ddd",
+        "english": "Endophthalmitis"
+    },
+    {
+        "ID": 32,
+        "name": "Ophtalmie sympathique",
+        "score": 9,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Sévère",
+        "severityeng": "Severe",
+        "acronym": "eee",
+        "english": "Sympathetic ophthalmia"
+    },
+    {
+        "ID": 33,
+        "name": "Phtyse",
+        "score": 9,
+        "surgery": "Général",
+        "surgeryeng": "General",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Sévère",
+        "severityeng": "Severe",
+        "acronym": "eee",
+        "english": "Phthisis"
+    },
+    {
+        "ID": 34,
+        "name": "Elargissement involontaire de la sclérotomie",
+        "score": 2,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Unintended enlargement of sclerotomy"
+    },
+    {
+        "ID": 35,
+        "name": "Sclérotomies perméables nécessitant des sutures à la fin de la chirurgie",
+        "score": 2,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Leaking ports at the end of surgery requiring suturing"
+    },
+    {
+        "ID": 36,
+        "name": "Formation de petites bulles lors de l'insertion de PFCL",
+        "score": 2,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Small bubble formation when inserting PFCL"
+    },
+    {
+        "ID": 37,
+        "name": "Développement de cataracte peropératoire (due à un contact intra-opératoire avec le cristallin): pas de rupture capsulaire",
+        "score": 4,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Cataract development intra-operatively (due to lens touch): Without capsular breach"
+    },
+    {
+        "ID": 38,
+        "name": "Déchirures rétiniennes iatrogénique",
+        "score": 4,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Iatrogenic retinal tears"
+    },
+    {
+        "ID": 39,
+        "name": "Infusion suprachoroïdienne",
+        "score": 5,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Suprachoroidal infusion"
+    },
+    {
+        "ID": 40,
+        "name": "Perfusion sous-rétinienne",
+        "score": 5,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Subretinal infusion"
+    },
+    {
+        "ID": 41,
+        "name": "Développement de cataracte peropératoire (due à un contact intra-opératoire avec le cristallin): avec rupture capsulaire",
+        "score": 5,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Cataract development intra-operatively (due to lens touch): With capsular breach"
+    },
+    {
+        "ID": 42,
+        "name": "Incarcération vitréo-rétinienne dans la sclérotomie",
+        "score": 5,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Vitreo-retinal incarceration in sclerotomy"
+    },
+    {
+        "ID": 43,
+        "name": "Déplacement peropératoire du perfluorocarbone liquide (PFCL) sous la rétine",
+        "score": 6,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "peroperative displacement of perfluorocarbon liquid (PFCL) under the retina"
+    },
+    {
+        "ID": 44,
+        "name": "Déplacement antérieur du perfluorocarbone liquide (PFCL)",
+        "score": 3,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Anterior displacement of tamponade agent: PFCL"
+    },
+    {
+        "ID": 45,
+        "name": "Sclérotomie perméable nécessitant de suture",
+        "score": 3,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Leaky sclerotomy requiring suturing "
+    },
+    {
+        "ID": 46,
+        "name": "Déplacement antérieur de l'agent de tamponnement : huile de silicone",
+        "score": 4,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Anterior displacement of tamponade agent: Silicone oil"
+    },
+    {
+        "ID": 47,
+        "name": "Emulsification de l'agent de tamponnement",
+        "score": 4,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Emulsification of tamponade agents"
+    },
+    {
+        "ID": 48,
+        "name": "Plis maculaires : n’atteignant pas la foveola",
+        "score": 4,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Macular folds: not involving fixation"
+    },
+    {
+        "ID": 49,
+        "name": "Uvéite non infectieuse",
+        "score": 4,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "eee",
+        "english": "Non-infectious uveitis"
+    },
+    {
+        "ID": 50,
+        "name": "Extraction incomplète de l’agent de taponnement",
+        "score": 5,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Incomplete removal of tamponade agent"
+    },
+    {
+        "ID": 51,
+        "name": "Glissement ('slippage') de la rétine",
+        "score": 6,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Retinal slippage"
+    },
+    {
+        "ID": 52,
+        "name": "Perfluorocarbone liquide (PFCL) sous la macula",
+        "score": 7,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Subfoveal PFCL"
+    },
+    {
+        "ID": 53,
+        "name": "Déplacement sous-rétinien de l'huile de silicone / ou des huile de silicone lourdes",
+        "score": 7,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Subretinal displacement of silicone oil and heavy silicone oil"
+    },
+    {
+        "ID": 54,
+        "name": "Perte d'acuité visuelle inexpliquée associée à l'insertion / extraction de l'huile de silicone",
+        "score": 7,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "eee",
+        "english": "Unexplained visual acuity loss associated with insertion / removal of silicone oil"
+    },
+    {
+        "ID": 55,
+        "name": "Maculopathie liée à la toxicité lumineuse utilisée pendant la chirurgie",
+        "score": 7,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Maculopathy related to light toxicity"
+    },
+    {
+        "ID": 56,
+        "name": "Maculopathie liée à la toxicité du colorant utilisée pendant la chirurgie",
+        "score": 7,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Maculopathy related to dye toxicity"
+    },
+    {
+        "ID": 57,
+        "name": "Plis maculaires ateiggant la fixation",
+        "score": 7,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Macular folds: involving fixation"
+    },
+    {
+        "ID": 58,
+        "name": "Re-décollement de la rétine dû à la formation de nouvelles déchirures",
+        "score": 7,
+        "surgery": "Vitrectomie Pars Plana",
+        "surgeryeng": "Pars Plana Vitrectomy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Retinal re-detachment due to new tear formation"
+    },
+    {
+        "ID": 59,
+        "name": "drainage involontaire de fluide sous-rétinien",
+        "score": 3,
+        "surgery": "chirurgie sclérale: explants/cerclage",
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "fff",
+        "english": "inadvertent drainage of subretinal fluid"
+    },
+    {
+        "ID": 60,
+        "name": "Perforation sclérale par erreur lors de la suture de l’explant",
+        "score": 4,
+        "surgery": "chirurgie sclérale: explants/cerclage",
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "fff",
+        "english": "Inadvertent scleral perforation when suturing explant"
+    },
+    {
+        "ID": 61,
+        "name": "Injection d'air/gaz derrière le cristallin (pre-hyaloïdenne, devant l’hyloïde antérieur)",
+        "score": 4,
+        "surgery": "chirurgie sclérale: explants/cerclage",
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "fff",
+        "english": "Air / gas injection behind the lens (pre-anterior hyaloid)"
+    },
+    {
+        "ID": 62,
+        "name": "Développement de cataracte peropératoire (due au contact avec le cristallin au moment de l’injection du gaz) : pas de rupture capsulaire",
+        "score": 4,
+        "surgery": "chirurgie sclérale: explants/cerclage",
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "fff",
+        "english": "Cataract development intra-operatively (due to lens touch at the time of gas injection): Without capsular breach"
+    },
+    {
+        "ID": 63,
+        "name": "Incarcération vitreo-rétinienne dans la sclérotomie au moment du drainage du liquide subrétinien",
+        "score": 6,
+        "surgery": "chirurgie sclérale: explants/cerclage",
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Vitreo-retinal incarceration in sclerotomy at time of draining of subretinal fluid"
+    },
+    {
+        "ID": 64,
+        "name": "Injection sous-rétinienne d'air/gaz",
+        "score": 6,
+        "surgery": "chirurgie sclérale: explants/cerclage",
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Sub-retinal injection of air / gas"
+    },
+    {
+        "ID": 65,
+        "name": "Développement de la cataracte en peropératoire : Avec rupture capsulaire",
+        "score": 7,
+        "surgery": [
+            "chirurgie sclérale: explants/cerclage",
+            " Rétinopexie Pneumatique"
+        ],
+        "surgeryeng": ["Scleral Buckle", "Pneumatic Retinopexy"],
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Cataract development intra-operatively: With capsular breach"
+    },
+    {
+        "ID": 66,
+        "name": "Exposition de l’explant/cerclage (lorsque cela se produit après la première semaine",
+        "score": 4,
+        "surgery": [
+            "chirurgie sclérale: explants/cerclage"
+        ],
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "fff",
+        "english": "Delayed exposure of the buckle (after 1 week)"
+    },
+    {
+        "ID": 67,
+        "name": "Diplopie / strabisme: Corrigé avec lunettes / prismes",
+        "score": 4,
+        "surgery": [
+            "chirurgie sclérale: explants/cerclage"
+        ],
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "fff",
+        "english": "Diplopia / strabismus: Corrected with glasses / prisms"
+    },
+    {
+        "ID": 68,
+        "name": "Exposition précoce de l’explant/cerclage (quand elle se produit pendant la première semaine)",
+        "score": 5,
+        "surgery": [
+            "chirurgie sclérale: explants/cerclage"
+        ],
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Early exposure of the buckle (<1 week)"
+    },
+    {
+        "ID": 69,
+        "name": "Infection à l’explant/cerclage",
+        "score": 5,
+        "surgery": [
+            "chirurgie sclérale: explants/cerclage"
+        ],
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "fff",
+        "english": "Infection of the buckle"
+    },
+    {
+        "ID": 70,
+        "name": "Migration précoce de l’explant/cerclage (pendant la première semaine)",
+        "score": 5,
+        "surgery": [
+            "chirurgie sclérale: explants/cerclage"
+        ],
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ggg",
+        "english": "Early migration of the buckle (<1 week)"
+    },
+    {
+        "ID": 71,
+        "name": "Migration tardive de l’explant/cerclage (après la première semaine)",
+        "score": 5,
+        "surgery": [
+            "chirurgie sclérale: explants/cerclage"
+        ],
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ggg",
+        "english": "Delayed migration of the buckle (after 1 week)"
+    },
+    {
+        "ID": 72,
+        "name": "Diplopie / strabisme nécessitant une chirurgie",
+        "score": 6,
+        "surgery": [
+            "chirurgie sclérale: explants/cerclage"
+        ],
+        "surgeryeng": "Scleral Buckle",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ggg",
+        "english": "Diplopia / strabismus: Requiring surgery"
+    },
+    {
+        "ID": 73,
+        "name": "Formation de bulles de gaz multiples ne gênant pas pas la visualisation de la rétine",
+        "score": 2,
+        "surgery": [
+            "Rétinopexie pneumatique"
+        ],
+        "surgeryeng": "Pneumatic Retinopexy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ggg",
+        "english": "Fish-egg' gas bubble formation not affecting view of retina"
+    },
+    {
+        "ID": 74,
+        "name": "Formation de bulles de gaz multiples gênant l’affichage de la rétine",
+        "score": 4,
+        "surgery": [
+            "Rétinopexie pneumatique"
+        ],
+        "surgeryeng": "Pneumatic Retinopexy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ggg",
+        "english": "Fish-egg' gas bubble formation affecting view of retina"
+    },
+    {
+        "ID": 75,
+        "name": "Injection de gaz derrière le cristallin (devant l’hyloïde antérieur ou pré-hyloïdienne)",
+        "score": 4,
+        "surgery": [
+            "Rétinopexie pneumatique"
+        ],
+        "surgeryeng": "Pneumatic Retinopexy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ggg",
+        "english": "Gas injection behind the lens (pre-anterior hyaloid)"
+    },
+    {
+        "ID": 76,
+        "name": "Développement de cataracte peropératoire (due au contact avec le cristallin au moment de l’injection du gaz): pas de rupture capsulaire",
+        "score": 4,
+        "surgery": [
+            "Rétinopexie pneumatique"
+        ],
+        "surgeryeng": "Pneumatic Retinopexy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ggg",
+        "english": "Cataract development intra-operatively (due to lens touch at the time of gas injection): Without capsular breach"
+    },
+    {
+        "ID": 77,
+        "name": "Injection sous-rétinienne de gaz",
+        "score": 6,
+        "surgery": [
+            "Rétinopexie pneumatique"
+        ],
+        "surgeryeng": "Pneumatic Retinopexy",
+        "occurrence": [
+            "peropératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ggg",
+        "english": "Sub-retinal injection of gas"
+    },
+    {
+        "ID": 78,
+        "name": "Formation de nouvelles déchirures rétiniennes",
+        "score": 4,
+        "surgery": [
+            "Rétinopexie pneumatique"
+        ],
+        "surgeryeng": "Pneumatic Retinopexy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Légère",
+        "severityeng": "Mild",
+        "acronym": "ggg",
+        "english": "New retinal tear formation"
+    },
+    {
+        "ID": 79,
+        "name": "Décollement de la rétine dû à la formation de nouvelles déchirures rétiniennes",
+        "score": 6,
+        "surgery": [
+            "Rétinopexie pneumatique"
+        ],
+        "surgeryeng": "Pneumatic Retinopexy",
+        "occurrence": [
+            "postopératoire"
+        ],
+        "severity": "Modéré",
+        "severityeng": "Moderate",
+        "acronym": "ggg",
+        "english": "Retinal re-detachment due to new tear formation"
+    }
+]

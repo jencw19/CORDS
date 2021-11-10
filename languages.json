@@ -1,0 +1,20 @@
+{
+    "english": {
+        "title": "English",
+        "view": "english.json",
+        "complications": "data.json"
+    },
+    
+    "french": {
+        "title": "Francais",
+        "view": "french.json",
+        "complications": "datafr.json"
+    },
+    "spanish": {
+        "title": "Espanol",
+        "view": "spanish.json",
+        "complications": "dataes.json"
+    }
+    
+    
+}

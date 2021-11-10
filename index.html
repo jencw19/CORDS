@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable = no">
+
+  <!-- Bootstrap CSS -->
+  <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">-->
+  <link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery.min.js">
+
+  <!--custom css-->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>CORDS Complications of Retinal Detachment and Score Calculator</title>
+</head>
+
+
+<body>
+
+
+  <div class="view" id="mainPage">
+    <!--bootstrap custom navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light  justify-content-center navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">CORDS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-centre navbar-right" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active replaceText" aria-current="page" href="">{{home}}</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link replaceText" href="#about">{{about}}</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link replaceText dropdown-toggle " href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">{{compList}}</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item replaceText" href="#" id="allComp" data-launch-view="see"
+                    onclick="renderTable('displayOnly', 'all'); fillText(); telemetry('viewAll');">{{viewAll}}</a></li>
+                <li><a class="dropdown-item replaceText" onclick="clickCounter(); telemetry('exportExcel');"
+                    href="allComplications.xlsx" download>{{exportEx}}</a></li>
+                <li><a class="dropdown-item replaceText" href="allComplicationsList.pdf"
+                    onclick="telemetry('printList');" download>{{exportPr}}</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item filterSB replaceText" href="#" id="sb" data-launch-view="see"
+                    onclick="renderTable('displayOnly', 'Scleral Buckle'); fillText(); ">{{sb}}</a></li>
+                <li><a class="dropdown-item filterPPV replaceText" href="#" id="ppv" data-launch-view="see"
+                    onclick="renderTable('displayOnly', 'Pars Plana Vitrectomy'); fillText();">{{ppv}}</a></li>
+                <li><a class="dropdown-item filterPR replaceText" href="#" id="pr" data-launch-view="see"
+                    onclick="renderTable('displayOnly', 'Pneumatic Retinopexy'); fillText();">{{pr}}</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown replaceText">
+              <a class="nav-link dropdown-toggle replaceText" href="#" id="navbarDropdown2" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">{{scoreCalculator}}</a>
+              <ul class="dropdown-menu replaceText" aria-labelledby="navbarDropdown2">
+                <li class="replaceText">{{selectSurgery}}</li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+
+                <li><a class="replaceText dropdown-item filterPPV " href="#" data-launch-view="see"
+                    onclick="renderTable('calculator', 'Pars Plana Vitrectomy'); fillText();">{{ppv3}}</a>
+                </li>
+                <li><a class="dropdown-item filterSB replaceText" href="#" data-launch-view="see"
+                    onclick="renderTable('calculator', 'Scleral Buckle'); fillText();">{{sb3}}</a></li>
+                <li><a class="dropdown-item filterPR replaceText" href="#" data-launch-view="see"
+                    onclick="renderTable('calculator', 'Pneumatic Retinopexy'); fillText();">{{pr3}}</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class=" nav-link replaceText dropdown-toggle" href="#" id="navDrop3" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">{{selectLang}}</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+                <!--language selection menu-->
+                <select id="sel" onchange="window.location.href = 'index.html?val=' + this.value; fillText(val);"
+                  name="lang">
+                  <option value="" class="replaceText">{{selectdrop}}</option>
+                </select>
+
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    <!--end nav-->
+
+
+
+
+    <!--page title-->
+    <div id="toppage" class="container-fluid replaceText">
+      <div class="row replaceText">
+        <div id="head" class="col-md-5 replaceText">
+          <p class="replaceText">{{title}}</p>
+        </div>
+        <div class="col-md-7">
+        </div>
+      </div>
+    </div>
+    <!--end toppage div-->
+
+
+
+
+
+
+
+
+    <!--bootstrap block buttons-->
+    <div id="homepagebuttons" class="d-grid gap-2 col-9 mx-auto ">
+
+      <!--dropdown surgery types-->
+      <button class="btn btn-default replaceText" type="button" data-bs-toggle="collapse" data-bs-target="#collapseComp"
+        aria-expanded="false" aria-controls="collapseText" id="compButton">{{compScoreCalculator}}</button>
+
+      <div class="collapse" id="collapseComp">
+        <div class="card1 card-body">
+
+          <a href="#" class="btn btn-custom filterSurgery replaceText" data-launch-view="see"
+            onclick="renderTable('calculator', 'Scleral Buckle'); fillText();">{{sb2}}<br><br></a>
+          <a href="#" class="btn btn-custom filterSurgery replaceText" data-launch-view="see"
+            onclick="renderTable('calculator', 'Pars Plana Vitrectomy'); fillText();">{{ppv2}}<br><br></a>
+          <a href="#" class="btn btn-custom filterSurgery replaceText" data-launch-view="see"
+            onclick="renderTable('calculator', 'Pneumatic Retinopexy'); fillText();">{{pr2}}<br><br></a>
+
+        </div>
+      </div>
+      <!--end collapse surgery div-->
+
+      <!--Bootstrap collapse about info-->
+      <button class="btn btn-default replaceText" id="about" type="button" data-bs-toggle="collapse"
+        data-bs-target="#collapseText" aria-expanded="false" aria-controls="collapseText"
+        onclick="telemetry('viewAboutInfo');">{{about}}</button>
+      <div class="collapse" id="collapseText">
+        <div class="card card-body replaceText">
+          <p class="replaceText">{{aboutInfo}}</p>
+        </div>
+      </div>
+      <!--end collapse about div-->
+
+      <!--contact button-->
+      <button class="btn btn-default replaceText" id="formButton" type="button"
+        onclick="location.href='mailto: n.lois@qub.ac.uk';">{{contact}}</button>
+
+
+    </div>
+  </div>
+  <!--end mainPage div-->
+
+
+
+
+
+  <!--div for tableRender functiom-->
+  <div id="see" class="view hide filterSurgery filterAvdMltpl">
+
+    <!--bootstrap custom navbar  -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light  justify-content-center navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="">CORDS</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent2"
+          aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-centre navbar-right" id="navbarSupportedContent2">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active replaceText" aria-current="page" href="">{{home2}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="heading" class="replaceText"></div>
+
+    <div id="tableDiv" class="container-fluid filterSurgery table-responsive ">
+      <center>
+        <input type="hidden" id="compTotVal" class="replaceText" disabled> <br>
+        <div id="showTotal" class=" showTotal hide"></div>
+      </center>
+
+      <!--search the table-->
+      <input type="text" id="myInput" class="myClass" onkeyup="mySearch()" placeholder="Search the table.."><br>
+
+      <table class=" replaceText table table-hover filterTable " id="compTable">
+        <div id="loadingShowScore"> </div>
+      </table>
+
+      <!--buttons for table view-->
+      <div class="centre btn container-fluid replaceText" id="tableButtons">
+        <button onClick="window.location.reload();" class="btn btn-submit replaceText">{{back}}</button>
+      </div>
+      <div id="result"></div>
+    </div>
+  </div>
+
+
+  <!-- Modal - https://www.w3schools.com/html/html5_webstorage.asp-->
+
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"><b>CORDS</b> research</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <a href="#">Please continue to support CORDS research by filling in this quick survey</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" onclick="window.open ('http://go.qub.ac.uk/cordssurvey','_blank');" >Take me to survey</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No thanks</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="firstTime" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel"><b>CORDS</b> research</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>In order to further our research, we would like to collect information on how you use this app for the
+            CORDS research team.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="consent"
+            onclick="consentCheck();">I consent</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="noConsent();">No, don't track
+            my usage</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <footer id="footer">
+    <div class="container">
+      <div class="row" id="footertopdiv">
+        <div class="col-sm-4">
+          <!--<div class="links"><br><span>&#8226;</span><span>   CORDS research :</span></div>-->
+          <div class="links"><br><span>&#8226;</span><a
+              href="https://jamanetwork.com/journals/jamaophthalmology/fullarticle/2781468" target="_blank"
+              class="footerlinks"> New Classification for the Reporting of Complications in Retinal Detachment Surgical
+              Trials</a></div>
+          <div class="links"><br><span>&#8226;</span><a
+              href="https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2781201" target="_blank"
+              class="footerlinks"> Reporting of Complications in Retinal Detachment Surgical Trials</a></div>
+         <!-- <div class="links"><br><span>&#8226;</span><a href="" class="footerlinks"> Cookie Policy</a></div>
+          <div class="links"><br><span>&#8226;</span><a href="" class="footerlinks"> Privacy Policy</a></div>-->
+        </div>
+        <div class="col-sm-4">
+          <img class="logo" src="QUBLogo.jpg" />
+        </div>
+        <div class="col-sm-4">
+
+        </div>
+      </div>
+    </div>
+
+    <div id="footerbottomdiv">
+      <br>Copyright &copy; 2021 J.Walsh
+    </div>
+  </footer>
+  <!--end footer div-->
+
+
+
+
+
+  <!-- Bootstrap js Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>-->
+
+  <script src="css/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  <!--jQuery-->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>-->
+  <script src="css/jquery.min.js"></script>
+
+
+  <!--custom js-->
+  <script src="functions.js"></script>
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,200 @@
+
+
+[
+    {    
+        "textKeyId": 1,
+        "textKeyName": "home",
+        "textValueName": "Homepage"
+    },
+    {   "textKeyId": 2,
+        "textKeyName": "about",
+        "textValueName": "à propos"
+    },
+    {
+        "textKeyId": 3,
+        "textKeyName": "viewAll",
+        "textValueName": "Voir toutes les complications"
+    },
+    {   
+        "textKeyId": 4,
+        "textKeyName": "exportEx",
+        "textValueName": "Exporter la liste dans Excel"
+    },
+    {   "textKeyId": 5,
+        "textKeyName": "exportPr",
+        "textValueName": "Exporter la liste pour l'imprimer"
+    },
+    {   "textKeyId": 6,
+        "textKeyName": "sb",
+        "textValueName": "Chirurgie sclérale d’explant ou cerclage"
+    },
+    {   "textKeyId": 7,
+        "textKeyName": "ppv",
+        "textValueName": "Vitrectomie Pars Plana" 
+    },
+    {   "textKeyId": 8,
+        "textKeyName": "pr",
+        "textValueName": "Rétinopexie pneumatique"
+    },
+    {   "textKeyId": 9,
+        "textKeyName": "compList",
+        "textValueName": "Liste des complications"
+    },
+    {   "textKeyId": 10,
+        "textKeyName": "scoreCalculator",
+        "textValueName": "Calculateur de score" 
+    },
+    {   "textKeyId": 11,
+        "textKeyName": "selectSurgery",
+        "textValueName": "Sélectionner le type de chirurgie" 
+    },
+    {   "textKeyId": 12,
+        "textKeyName": "title",
+        "textValueName": "Complications de la Chirurgie du Décollement de la Rétine et Calculateur de Score" 
+    },
+    {   "textKeyId": 13,
+        "textKeyName": "compScoreCalculator",
+        "textValueName": "Calculateur de score basé sur les complications" 
+    
+    },
+    {   "textKeyId": 14,
+        "textKeyName": "aboutInfo",
+        "textValueName": "Les études randomisées aident les chirurgiens vitreorétiniens à choisir les meilleurs traitements chirurgicaux pour leurs patients. Ces études randomisées comparent différents types de chirurgies en termes d’effets bénéfiques, mais aussi en termes de complications potentielles. Les études randomisées réalisées dans le domaine de la chirurgie des décollements de rétine ont été appropriées pour évaluer les effets bénéfiques de la chirurgie, mais pas assez pour évaluer ses complications. En général, elles n’ont pas été signalées de manière adéquate ou quantitative (<a href = 'https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2781201' target='_blank' >voir article</a> ). Cela est dû en partie au fait que, jusqu’à très récemment, il n’y avait pas de liste de complications avec leur gravité qui pourrait être utilisée à cette fin. Le Groupe des chercheurs et chirurgiens vitreoretiniens du CORDS (Complications Of Retinal Detachment Surgery) ont développé une liste exhaustive des complications de la chirurgie du décollement de rétine, avec leur gravité, exprimée sous forme quantitative. Cette liste a été développée en utilisant la méthode Delphi et avec la collaboration d’un grand nombre de chirurgiens vitreorétiniens qui exercent en Europe, en Amérique, au Royaume-Uni, en Asie, en Afrique du Sud et en Australie. Cette application permet d’accéder à cette liste de complications avec leurs degrés de gravité" 
+    },
+    {   "textKeyId": 15,
+        "textKeyName": "contact",
+        "textValueName": "Nous Contacter" 
+    },
+    {   "textKeyId": 16,
+        "textKeyName": "back",
+        "textValueName": "Arrière" 
+    },
+    {   "textKeyId": 17,
+        "textKeyName": "calculate",
+        "textValueName": "Calculer" 
+    },
+    {   "textKeyId": 18,
+        "textKeyName": "name",
+        "textValueName": "Nom" 
+    },
+    {   "textKeyId": 19,
+        "textKeyName": "score",
+        "textValueName": "Score" 
+    },
+    {   "textKeyId": 20,
+        "textKeyName": "surgery",
+        "textValueName": "Type de Chirurgie" 
+    },
+    {   "textKeyId": 21,
+        "textKeyName": "occurrence",
+        "textValueName": "Occurrence" 
+    },
+    {   "textKeyId": 22,
+        "textKeyName": "severity",
+        "textValueName": "Gravité" 
+    },
+    {   "textKeyId": 23,
+        "textKeyName": "sbComps",
+        "textValueName": "Complications de la Chirurgie sclérale d’explant ou cerclage " 
+    },
+    {
+        "textKeyId": 24,
+        "textKeyName": "ppvComps",
+        "textValueName": "Complications de la Vitrectomie par Pars Plana"
+    },
+    {   "textKeyId": 25,
+        "textKeyName": "prComps",
+        "textValueName": "Complications de la rétinopexie pneumatique"
+    },
+    {   "textKeyId": 26,
+        "textKeyName": "select",
+        "textValueName": "Veuillez sélectionner les complications....."
+    },
+    {   "textKeyId": 27,
+        "textKeyName": "mild",
+        "textValueName": "Doux"
+    },
+    {   "textKeyId": 28,
+        "textKeyName": "moderate",
+        "textValueName": "Modérer"
+    },
+    {   "textKeyId": 29,
+        "textKeyName": "severe",
+        "textValueName": "Sévère"
+    },
+    {   "textKeyId": 30,
+        "textKeyName": "tot",
+        "textValueName": "SCORE TOTAL DE COMPLICATION :"
+    },
+    {   "textKeyId": 31,
+        "textKeyName": "mildTot",
+        "textValueName": "Nombre de complications légères :"
+    },
+    {   "textKeyId": 32,
+        "textKeyName": "modTot",
+        "textValueName": "Nombre de complications modérées :"
+    },
+    {   "textKeyId": 33,
+        "textKeyName": "severeTot",
+        "textValueName": "Nombre de complications graves :"
+    
+    },
+    {   "textKeyId": 34,
+        "textKeyName": "selectLang",
+        "textValueName": "Choisir la langue"
+    },
+    {   "textKeyId": 35,
+        "textKeyName": "about",
+        "textValueName": "Sur"
+    },
+    {  "textKeyId": 36,
+        "textKeyName": "sb2",
+        "textValueName": "Chirurgie sclérale d’explant ou cerclage"
+    },
+    {   "textKeyId": 37,
+        "textKeyName": "ppv2",
+        "textValueName": "Vitrectomie Pars Plana"
+    },
+    {   "textKeyId": 38,
+        "textKeyName": "pr2",
+        "textValueName": "Rétinopexie pneumatique"
+    },
+    {  "textKeyId": 39,
+        "textKeyName": "sb3",
+        "textValueName": "Chirurgie sclérale d’explant ou cerclage"
+    },
+    {   "textKeyId": 40,
+        "textKeyName": "ppv3",
+        "textValueName": "Vitrectomie Pars Plana"
+    },
+    {   "textKeyId": 41,
+        "textKeyName": "pr3",
+        "textValueName": "Rétinopexie pneumatique"
+    },
+    {   "textKeyId": 42,
+        "textKeyName": "home2",
+        "textValueName": "Homepage"
+    },
+    {   "textKeyId": 43,
+        "textKeyName": "allComps",
+        "textValueName": "Toutes les complications"
+    },
+    {   "textKeyId": 44,
+        "textKeyName": "pleaseSelect",
+        "textValueName": "Veuillez sélectionner les complications..."
+    },
+    {   "textKeyId": 45,
+        "textKeyName": "selectdrop",
+        "textValueName": "Veuillez sélectionner"
+    }
+    ]
+    
+          
+    
+    
+    
+    
+        
+       
+       
+        

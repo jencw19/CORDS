@@ -1,0 +1,200 @@
+
+
+[
+    {    
+        "textKeyId": 1,
+        "textKeyName": "home",
+        "textValueName": "Homepage"
+    },
+    {   "textKeyId": 2,
+        "textKeyName": "about",
+        "textValueName": "Acerca"
+    },
+    {
+        "textKeyId": 3,
+        "textKeyName": "viewAll",
+        "textValueName": "Ver todas las complicaciones"
+    },
+    {   
+        "textKeyId": 4,
+        "textKeyName": "exportEx",
+        "textValueName": "Exportar la lista a Excel"
+    },
+    {   "textKeyId": 5,
+        "textKeyName": "exportPr",
+        "textValueName": "Exportar la lista para poder imprimirla"
+    },
+    {   "textKeyId": 6,
+        "textKeyName": "sb",
+        "textValueName": "Cirugia de explante o cerclaj"
+    },
+    {   "textKeyId": 7,
+        "textKeyName": "ppv",
+        "textValueName": "Vitrectomía" 
+    },
+    {   "textKeyId": 8,
+        "textKeyName": "pr",
+        "textValueName": "Retinopexia neumática"
+    },
+    {   "textKeyId": 9,
+        "textKeyName": "compList",
+        "textValueName": "Lista de complicaciones"
+    },
+    {   "textKeyId": 10,
+        "textKeyName": "scoreCalculator",
+        "textValueName": "Calculadora de la puntuación" 
+    },
+    {   "textKeyId": 11,
+        "textKeyName": "selectSurgery",
+        "textValueName": "Seleccione el tipo de cirugía" 
+    },
+    {   "textKeyId": 12,
+        "textKeyName": "title",
+        "textValueName": "Complicaciones de la cirugía de desprendimiento de retina y calculadora de puntuación" 
+    },
+    {   "textKeyId": 13,
+        "textKeyName": "compScoreCalculator",
+        "textValueName": "Calculador de la puntuación basado en las complicaciones occurridas" 
+    
+    },
+    {   "textKeyId": 14,
+        "textKeyName": "aboutInfo",
+        "textValueName": "Los estudios randomizados ayudan a los cirujanos de vitreoretina a escoger los mejores tratamientos quirugicos para sus pacientes. Estos estudios randomizados comparan distintos tipos de cirugias con respecto a sus efectos beneficiosos pero también con respecto a sus complicaciones potenciales. Estudios randomizados que han sido realizados en el campo de la cirugia del desprendimiento de retina han sido adecuados para evaluar los efectos beneficiosos de la misma, pero no tanto para evaluar sus complicaciones. Estas, en general, no se han reportado de forma adecuada ni cuantitativa (<a href = 'https://jamanetwork.com/journals/jamaophthalmology/article-abstract/2781201' target='_blank' >ver articulo</a> ). En parte, esto se debe a que, hasta hace muy poco, no habia una lista de complicaciones con su severidad que pudiera ser usada con este propósito. <br/><br/> El Grupo de investigadores y cirujanos de vitreoretinal CORDS (Complications Of Retinal Detachment Surgery) ha dessarrollado una lista exhaustiva de complicaciones de la cirugia del desprendimiento de retina con su severidad, expresada de forma cuantitativa. Esta lista ha sido desarrollada usando el método Delphi y con la colaboración de un gran numero de cirujanos de vitreoretina que ejercen en Europa, America, Reino Unido, Asia, Sur-Africa y Australia. Este app permite acceder a esta lista de complicaciones con sus grados de severidad ." 
+    },
+    {   "textKeyId": 15,
+        "textKeyName": "contact",
+        "textValueName": "Como Contactar con nosotros" 
+    },
+    {   "textKeyId": 16,
+        "textKeyName": "back",
+        "textValueName": "atrás" 
+    },
+    {   "textKeyId": 17,
+        "textKeyName": "calculate",
+        "textValueName": "Calcular" 
+    },
+    {   "textKeyId": 18,
+        "textKeyName": "name",
+        "textValueName": "Nombre" 
+    },
+    {   "textKeyId": 19,
+        "textKeyName": "score",
+        "textValueName": "Puntaje" 
+    },
+    {   "textKeyId": 20,
+        "textKeyName": "surgery",
+        "textValueName": "Tipo de Cirugía" 
+    },
+    {   "textKeyId": 21,
+        "textKeyName": "occurrence",
+        "textValueName": "Ocurrencia" 
+    },
+    {   "textKeyId": 22,
+        "textKeyName": "severity",
+        "textValueName": "Gravedad" 
+    },
+    {   "textKeyId": 23,
+        "textKeyName": "sbComps",
+        "textValueName": "Complicaciones de la hebilla escleral" 
+    },
+    {
+        "textKeyId": 24,
+        "textKeyName": "ppvComps",
+        "textValueName": "Complicaciones de la vitrectomía Pars Plana"
+    },
+    {   "textKeyId": 25,
+        "textKeyName": "prComps",
+        "textValueName": "Complicaciones de la retinopexia neumática"
+    },
+    {   "textKeyId": 26,
+        "textKeyName": "select",
+        "textValueName": "Seleccione complicaciones ....."
+    },
+    {   "textKeyId": 27,
+        "textKeyName": "mild",
+        "textValueName": "Leve"
+    },
+    {   "textKeyId": 28,
+        "textKeyName": "moderate",
+        "textValueName": "Moderado"
+    },
+    {   "textKeyId": 29,
+        "textKeyName": "severe",
+        "textValueName": "Severo"
+    },
+    {   "textKeyId": 30,
+        "textKeyName": "tot",
+        "textValueName": "PUNTUACIÓN TOTAL DE COMPLICACIÓN:"
+    },
+    {   "textKeyId": 31,
+        "textKeyName": "mildTot",
+        "textValueName": "Número de complicaciones leves:"
+    },
+    {   "textKeyId": 32,
+        "textKeyName": "modTot",
+        "textValueName": "Número de complicaciones moderadas:"
+    },
+    {   "textKeyId": 33,
+        "textKeyName": "severeTot",
+        "textValueName": "Número de complicaciones graves:"
+    
+    },
+    {   "textKeyId": 34,
+        "textKeyName": "selectLang",
+        "textValueName": "Seleccione el idioma"
+    },
+    {   "textKeyId": 35,
+        "textKeyName": "about",
+        "textValueName": "Acerca"
+    },
+    {  "textKeyId": 36,
+        "textKeyName": "sb2",
+        "textValueName": "Cirugia de explante o cerclaj"
+    },
+    {   "textKeyId": 37,
+        "textKeyName": "ppv2",
+        "textValueName": "Vitrectomía"
+    },
+    {   "textKeyId": 38,
+        "textKeyName": "pr2",
+        "textValueName": "Retinopexia neumática"
+    },
+    {  "textKeyId": 39,
+        "textKeyName": "sb3",
+        "textValueName": "Cirugia de explante o cerclaj"
+    },
+    {   "textKeyId": 40,
+        "textKeyName": "ppv3",
+        "textValueName": "Vitrectomia"
+    },
+    {   "textKeyId": 41,
+        "textKeyName": "pr3",
+        "textValueName": "Retinopexia neumática"
+    },
+    {   "textKeyId": 42,
+        "textKeyName": "home2",
+        "textValueName": "Homepage"
+    },
+    {   "textKeyId": 43,
+        "textKeyName": "allComps",
+        "textValueName": "Todas las complicaciones"
+    },
+    {   "textKeyId": 44,
+        "textKeyName": "pleaseSelect",
+        "textValueName": "Seleccione complicaciones ..."
+    },
+    {   "textKeyId": 45,
+        "textKeyName": "selectdrop",
+        "textValueName": "Por favor seleccione"
+    }
+    ]
+    
+          
+    
+    
+    
+    
+        
+       
+       
+        
